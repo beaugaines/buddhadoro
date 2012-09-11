@@ -1,9 +1,9 @@
 # A most basic pomodoro timer written in Python.
 
 This script is no beauty and is cribbed from others code.
-But it gets the job done.  And the job is good.  That is:
-provide a [Pomodoro timer](www.pomodorotechnique.com) that is
-easy to use and delimits your work periods not by annoyingly
+But it gets the job done.  And that job is is to
+provide a timer for the [Pomodoro Technique](http://www.pomodorotechnique.com)
+that is easy to use and delimits your work periods not by annoyingly
 locking your screen with no warning and not by having a dancing
 gnome pop up and ask you to cease pounding your keyboard for a
 few minutes, but with a tranquil and soothing *GONG* of a Tibetan
