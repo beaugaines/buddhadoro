@@ -1,17 +1,18 @@
 #!/usr/bin/python
 
 """
-Crude but functional auditory Pomodoro timer
+Crude but functional auditory Pomodoro timer, with a Buddhist-y air
 """
 
 import sys
 import time
 import subprocess
 
-# Sound files
+# Sound constants
 ALARM = "tibetan_bowl.ogg"
 DEV_NULL = open("/dev/null", "w")
 
+# fcns
 def alarm(alarm):
   
   cmd = ["ogg123", alarm]
@@ -24,8 +25,8 @@ def main(args):
   work_sessions = int(work_sessions)
   twork = int(twork)
   trest = int(trest)
+
   # begin work session
-  # alarm(ALARM)
   print "Beginning work session."
   print "You're going to do %s work sessions of %s minutes length,\
   with %s minute rests in between" % (work_sessions, twork, trest)
