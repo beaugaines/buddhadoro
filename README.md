@@ -31,7 +31,14 @@ eaten your pop tart by then, this is your chance.
 - I'd like a gui
 - I'd like to add functionality to keep track of the various pomodoros we do during   the day - probably via SQLite
 
+## How to contribute
+
+- Fork it!
+- Create a topic branch for your changes
+- Tests would be a nice touch
+- Make a pull request
+
 ## License
 
-&copy; 2012 Beau Gaines, release under the MIT license.
+&copy; 2012 Beau Gaines, released under the MIT license.
 
