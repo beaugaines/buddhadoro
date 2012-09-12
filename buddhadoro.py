@@ -36,9 +36,6 @@ def main(args):
     time.sleep(trest * 60)
     a += 1
     alarm(ALARM)
-    # print('%d work sessions completed.' % a)
-    # if a == work_sessions:
-    #   break
 
   # Long rest session
   print('Time for your long rest.')
