@@ -37,9 +37,12 @@ def main(args):
     alarm(BOWL)
     time.sleep(twork * 60)
     a += 1
-    alarm(BOWL)
-    time.sleep(trest * 60)
-    print "You have completed %d work sessions." % a
+    if a == work_sessions:
+      break
+    else:
+      alarm(BOWL)
+      time.sleep(trest * 60)
+      print "You have completed %d work sessions." % a
 
   # Long rest session
   alarm(BELL1)
